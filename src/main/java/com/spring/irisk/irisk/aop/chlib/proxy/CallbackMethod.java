@@ -13,7 +13,7 @@ public class CallbackMethod implements MethodInterceptor {
                             MethodProxy methodProxy) throws Throwable {
         System.out.println("uzi");
         Object obj = methodProxy.invokeSuper(proxy,objects);
-        System.out.println("clearlove");
+        System.out.println("kod");
         return obj;
     }
 }
